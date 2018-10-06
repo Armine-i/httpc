@@ -5,9 +5,6 @@ import echoclient as lib
 import re
 import json
 
-#httpc post [-v] [-h key:value] [-d inline-data] [-f file] URL
-#httpc get [-v] [-h key:value] URL
-
 requestGET = 'GET /status/418 HTTP/1.0\r\nHost: httpbin.org\r\nConnection: close\r\n\r\n'
 
 @click.group()

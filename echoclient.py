@@ -6,8 +6,6 @@ import pprint
 from http_parser.http import HttpStream
 from http_parser.reader import SocketReader
 
-#HOST = input("enter the HOST: ")
-#PORT = int(input("enter the PORT: "))
 PORT = 80
 #header syntax for GET request
 #                        ----URL----             -------URL-------    -----header------
@@ -17,13 +15,6 @@ request_headerGET = 'GET /get?course=networking&assignment=1 HTTP/1.0\r\nHost: h
 data=json.dumps({"c": 0, "b": 0, "a": 0})
 #                          -URL-             -------URL-------    -----------------------------------------header------------------------------------------        -d or -f
 request_headerPOST = 'POST /post HTTP/1.0\r\nHost: httpbin.org\r\nContent-Type:application/json\r\nContent-Length: '+str(len(data))+'\r\nConnection: close\r\n\r\n'+data+'\r\n\r\n'
-
-#def request_headerGET(URL, CONNECTION):
-
-
-
-#def request_headerPOST():
-
 
 def POSTverbose(HOST, request_headerPOST):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
