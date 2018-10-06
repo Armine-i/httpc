@@ -1,4 +1,4 @@
 
         [console_scripts]
-        httpc=httpc2:cli
+        httpc=httpc:cli
     

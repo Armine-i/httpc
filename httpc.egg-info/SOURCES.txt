@@ -1,5 +1,4 @@
 httpc.py
-httpc2.py
 httpc.egg-info/PKG-INFO
 httpc.egg-info/SOURCES.txt
 httpc.egg-info/dependency_links.txt
