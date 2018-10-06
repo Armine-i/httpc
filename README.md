@@ -10,10 +10,10 @@ $ pip install --editable .
 
 "httpc get -v http://httpbin.org/status/418"
 
-(https://raw.github.com/Armine-i/httpc/master/getexample.png)
+![ScreenShot](https://raw.github.com/Armine-i/httpc/master/getexample.png)
 
 - POST command:
 
 "httpc post -h Content-Type:application/json  --d "Assignment":1 http://httpbin.org/post"
 
-(https://raw.github.com/Armine-i/httpc/master/getexample.png)
+![ScreenShot](https://raw.github.com/Armine-i/httpc/master/getexample.png)
