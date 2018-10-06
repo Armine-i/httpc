@@ -16,4 +16,4 @@ $ pip install --editable .
 
 "httpc post -h Content-Type:application/json  --d "Assignment":1 http://httpbin.org/post"
 
-![ScreenShot](https://raw.github.com/Armine-i/httpc/master/getexample.png)
+![ScreenShot](https://raw.github.com/Armine-i/httpc/master/postexample.png)
