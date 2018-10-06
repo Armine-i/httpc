@@ -1,0 +1,12 @@
+#!/Users/armine.iradian/PycharmProjects/testingHTTPC/v2/bin/python3.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'httpc','console_scripts','httpc'
+__requires__ = 'httpc'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('httpc', 'console_scripts', 'httpc')()
+    )
